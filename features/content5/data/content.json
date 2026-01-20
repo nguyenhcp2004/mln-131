@@ -1,0 +1,128 @@
+{
+  "title": "Tư tưởng Hồ Chí Minh về Nhà nước do nhân dân, vì nhân dân",
+  "subtitle": "Nguyên lý cơ bản về bản chất dân chủ của Nhà nước Việt Nam",
+  "sections": [
+    {
+      "id": "by-people",
+      "title": "Nhà nước do nhân dân",
+      "icon": "users",
+      "introduction": "Nguyên lý 'Nhà nước do nhân dân – Dân làm chủ' là nền tảng của tư tưởng Hồ Chí Minh về quyền lực nhà nước thuộc về nhân dân.",
+      "principles": [
+        {
+          "title": "Mọi quyền lực Nhà nước thuộc về nhân dân",
+          "description": "Quyền lực tối cao do nhân dân quyết định. Nhân dân vừa là chủ thể quyền lực, vừa là người trao quyền cho Nhà nước.",
+          "points": [
+            "Quyền lực tối cao do nhân dân quyết định",
+            "Nhân dân là chủ thể quyền lực",
+            "Nhân dân là người trao quyền cho Nhà nước"
+          ]
+        },
+        {
+          "title": "Nhân dân lập nên Nhà nước",
+          "description": "Thông qua bầu cử phổ thông đầu phiếu.",
+          "points": [
+            "Thông qua bầu cử phổ thông đầu phiếu",
+            "Tổng tuyển cử 6/1/1946: lần đầu ở Đông Nam Á",
+            "Mọi công dân ≥18 tuổi đều có quyền bầu cử"
+          ],
+          "highlight": {
+            "date": "6/1/1946",
+            "event": "Tổng tuyển cử đầu tiên",
+            "significance": "Lần đầu tiên ở Đông Nam Á mọi công dân ≥18 tuổi đều có quyền bầu cử"
+          }
+        },
+        {
+          "title": "Quyền làm chủ của nhân dân",
+          "description": "Nhân dân thực hiện quyền làm chủ theo hai hình thức: trực tiếp và gián tiếp.",
+          "points": [
+            "Thực hiện theo 2 hình thức: trực tiếp và gián tiếp",
+            "Quyền góp ý, phê bình, giám sát",
+            "Quyền bãi miễn đại biểu không xứng đáng"
+          ]
+        },
+        {
+          "title": "Trách nhiệm của người chủ",
+          "description": "Nhân dân không chỉ có quyền mà còn có trách nhiệm đối với Nhà nước.",
+          "points": [
+            "Tuân thủ pháp luật, giữ trật tự",
+            "Nộp thuế, tham gia công việc chung",
+            "Bảo vệ tài sản công và lợi ích quốc gia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "for-people",
+      "title": "Nhà nước vì nhân dân",
+      "icon": "heart",
+      "introduction": "Nguyên lý 'Nhà nước vì nhân dân' thể hiện mục tiêu tối cao của Nhà nước là phục vụ hạnh phúc và lợi ích của nhân dân.",
+      "principles": [
+        {
+          "title": "Mục tiêu tối cao: phục vụ nhân dân",
+          "description": "Chính phủ tồn tại để mưu cầu hạnh phúc cho mọi người dân.",
+          "points": [
+            "Chính phủ tồn tại để 'mưu cầu hạnh phúc cho mọi người dân'",
+            "Việc gì có lợi cho dân thì hết sức làm",
+            "Phục vụ nhân dân là nhiệm vụ cao nhất"
+          ],
+          "quote": {
+            "text": "Việc gì có lợi cho dân thì hết sức làm.",
+            "author": "Hồ Chí Minh"
+          }
+        },
+        {
+          "title": "Không có đặc quyền, đặc lợi",
+          "description": "Nhà nước không được hưởng lợi riêng, cán bộ là công bộc của dân.",
+          "points": [
+            "Nhà nước không được hưởng lợi riêng",
+            "Cán bộ là công bộc của dân",
+            "Không phải 'quan cách mạng'"
+          ]
+        },
+        {
+          "title": "Đạo đức công vụ của cán bộ",
+          "description": "Cán bộ nhà nước phải thực hiện đạo đức công vụ cao nhất.",
+          "points": [
+            "Thực hiện: Cần – Kiệm – Liêm – Chính",
+            "Chí công vô tư",
+            "Không lạm quyền, không nhũng nhiễu",
+            "Không mưu lợi cá nhân"
+          ],
+          "ethics": [
+            "Cần",
+            "Kiệm",
+            "Liêm",
+            "Chính",
+            "Chí công vô tư"
+          ]
+        },
+        {
+          "title": "Chống 'giặc nội xâm'",
+          "description": "Tham ô, lãng phí, quan liêu bị coi là giặc nội xâm đe dọa Nhà nước.",
+          "points": [
+            "Tham ô – lãng phí – quan liêu bị coi là 'giặc nội xâm'",
+            "Yêu cầu xây dựng Nhà nước trong sạch",
+            "Nhà nước liêm chính, vì dân phục vụ"
+          ],
+          "warning": {
+            "text": "Tham ô, lãng phí, quan liêu là giặc nội xâm",
+            "consequences": [
+              "Đe dọa sự tồn vong của Nhà nước",
+              "Làm mất lòng tin của nhân dân",
+              "Phá hoại nền tảng của chế độ"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "conclusion": {
+    "title": "Kết luận",
+    "content": "Tư tưởng Hồ Chí Minh về Nhà nước của dân – do dân – vì dân vừa là nền tảng lý luận, vừa là kim chỉ nam cho quá trình xây dựng Nhà nước Việt Nam hiện đại",
+    "keyPoints": [
+      "Nền tảng lý luận vững chắc",
+      "Kim chỉ nam cho xây dựng Nhà nước",
+      "Định hướng phát triển Việt Nam hiện đại"
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "title": "Xây dựng Nhà nước pháp quyền",
+  "subtitle": "Nhà nước hợp hiến, hợp pháp - Thượng tôn pháp luật - Pháp quyền nhân nghĩa",
+  "sections": [
+    {
+      "id": "constitutional",
+      "title": "Nhà nước hợp hiến, hợp pháp",
+      "icon": "scale",
+      "introduction": "Hồ Chí Minh luôn chú trọng vấn đề xây dựng nền tảng pháp lý cho Nhà nước Việt Nam mới. Người đã sớm thấy rõ tầm quan trọng của Hiến pháp và pháp luật trong đời sống chính trị - xã hội.",
+      "historicalDemand": {
+        "title": "Yêu sách của nhân dân An Nam (1919)",
+        "event": "Hội nghị Vécxây (Pháp)",
+        "year": "1919",
+        "demands": [
+          "Cải cách nền pháp lý ở Đông Dương bằng cách làm cho người bản xứ cũng được quyền hưởng những bảo đảm về mặt pháp luật như người Âu châu",
+          "Xoá bỏ hoàn toàn các toà án đặc biệt dùng làm công cụ để khủng bố và áp bức bộ phận trung thực nhất trong nhân dân An Nam",
+          "Thay thế chế độ ra các sắc lệnh bằng chế độ ra các đạo luật"
+        ]
+      },
+      "foundingActions": {
+        "title": "Hành động ngay sau Cách mạng Tháng Tám",
+        "date": "3-9-1945",
+        "context": "Chỉ một ngày sau khi đọc bản Tuyên ngôn độc lập, trong phiên họp đầu tiên của Chính phủ lâm thời",
+        "proposal": {
+          "quote": "Chúng ta phải có một hiến pháp dân chủ. Tôi đề nghị Chính phủ tổ chức càng sớm càng hay cuộc TỔNG TUYỂN CỬ với chế độ phổ thông đầu phiếu",
+          "author": "Hồ Chí Minh",
+          "purpose": [
+            "Lập nên Quốc hội",
+            "Lập ra Chính phủ và các cơ quan, bộ máy hợp hiến",
+            "Thể hiện quyền lực tối cao của nhân dân",
+            "Có cơ sở pháp lý vững chắc để làm việc với quân Đồng Minh",
+            "Có quan hệ quốc tế bình đẳng",
+            "Thiết lập cơ chế quyền lực hợp pháp theo đúng thông lệ của một Nhà nước pháp quyền hiện đại"
+          ]
+        }
+      },
+      "historicElection": {
+        "title": "Cuộc Tổng tuyển cử lịch sử",
+        "date": "6-1-1946",
+        "characteristics": [
+          "Phổ thông đầu phiếu",
+          "Trực tiếp",
+          "Bỏ phiếu kín"
+        ],
+        "significance": [
+          "Lần đầu tiên trong lịch sử hàng nghìn năm của dân tộc Việt Nam",
+          "Lần đầu tiên ở Đông Nam châu Á",
+          "Tất cả mọi người dân từ 18 tuổi trở lên, không phân biệt nam nữ, giàu nghèo, dân tộc, đảng phái, tôn giáo... đều đi bỏ phiếu"
+        ],
+        "outcome": {
+          "date": "2-3-1946",
+          "event": "Quốc hội khoá I nước Việt Nam Dân chủ Cộng hoà họp phiên đầu tiên",
+          "result": "Hồ Chí Minh được bầu làm Chủ tịch Chính phủ liên hiệp đầu tiên",
+          "legitimacy": "Chính phủ có đầy đủ tư cách pháp lý để giải quyết một cách có hiệu quả những vấn đề đối nội và đối ngoại"
+        }
+      }
+    },
+    {
+      "id": "supremacy",
+      "title": "Nhà nước thượng tôn pháp luật",
+      "icon": "gavel",
+      "introduction": "Trong tư tưởng Hồ Chí Minh, Nhà nước quản lý bằng bộ máy và bằng nhiều biện pháp khác nhau, nhưng quan trọng nhất là quản lý bằng Hiến pháp và pháp luật nói chung.",
+      "legislation": {
+        "title": "Công tác lập pháp",
+        "description": "Hồ Chí Minh luôn chú trọng xây dựng hệ thống luật pháp dân chủ, hiện đại",
+        "achievements": {
+          "role": "Chủ tịch nước",
+          "constitutions": [
+            {
+              "year": "1946",
+              "role": "Đứng đầu Ủy ban soạn thảo Hiến pháp"
+            },
+            {
+              "year": "1959",
+              "role": "Đứng đầu Ủy ban soạn thảo Hiến pháp"
+            }
+          ],
+          "statistics": {
+            "laws": 16,
+            "decrees": 613,
+            "stateOrganizationDecrees": 243,
+            "otherDocuments": "nhiều văn bản dưới luật khác"
+          },
+          "context": "Trong bối cảnh đất nước phải vừa kháng chiến, vừa kiến quốc vô cùng khó khăn"
+        }
+      },
+      "implementation": {
+        "title": "Đưa pháp luật vào cuộc sống",
+        "aspects": [
+          {
+            "id": 1,
+            "title": "Nâng cao hiểu biết pháp luật của người dân",
+            "quote": "Làm sao cho dân biết hưởng quyền dân chủ, biến dùng quyền dân chủ của mình, dám nói, dám làm",
+            "author": "Hồ Chí Minh",
+            "focus": "Giáo dục pháp luật cho mọi người, đặc biệt cho thế hệ trẻ"
+          },
+          {
+            "id": 2,
+            "title": "Nâng cao dân trí",
+            "description": "Việc thực thi pháp luật có quan hệ rất lớn đến trình độ dân trí của nhân dân",
+            "actions": [
+              "Nâng cao dân trí",
+              "Phát huy tính tích cực chính trị của nhân dân",
+              "Làm cho nhân dân có ý thức chính trị trong việc tham gia công việc của chính quyền các cấp"
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Tính nghiêm minh của pháp luật",
+            "quote": "Pháp luật Việt Nam tuy khoan hồng với những người biết cải tà quy chính, nhưng sẽ thẳng tay trừng trị những tên Việt gian đầu sỏ đã bán nước buôn dân",
+            "author": "Hồ Chí Minh",
+            "requirements": [
+              "Pháp luật phải đúng và phải đủ",
+              "Tăng cường tuyền truyền, giáo dục pháp luật cho mọi người dân",
+              "Người thực thi pháp luật phải thật sự công tâm và nghiêm minh"
+            ],
+            "criticism": "Thưởng có khi quá rộng, mà phạt thì không nghiêm"
+          },
+          {
+            "id": 4,
+            "title": "Giám sát và gương mẫu",
+            "supervision": "Khuyến khích nhân dân phê bình, giám sát công việc của Nhà nước, giám sát quá trình Nhà nước thực thi pháp luật",
+            "exemplary": {
+              "quote": "Các bạn là những người phụ trách thi hành pháp luật. Lẽ tất nhiên các bạn cần phải nêu cao cái gương 'phụng công, thủ pháp, chí công, vô tư' cho nhân dân noi theo",
+              "author": "Hồ Chí Minh",
+              "target": "Cán bộ các cấp, các ngành, đặc biệt là cán bộ thuộc ngành hành pháp và tư pháp"
+            },
+            "hoChiMinhExample": "Bản thân Hồ Chí Minh là một tấm gương sáng về sống và làm việc theo Hiến pháp và pháp luật. Sống và làm việc theo Hiến pháp và pháp luật đã trở thành nền nếp, thành thói quen, thành lối ứng xử tự nhiên của Hồ Chí Minh."
+          }
+        ]
+      }
+    },
+    {
+      "id": "humanistic",
+      "title": "Pháp quyền nhân nghĩa",
+      "icon": "heart",
+      "definition": "Pháp quyền nhân nghĩa tức là trước hết Nhà nước phải tôn trọng, bảo đảm thực hiện đầy đủ các quyền con người, chăm lo đến lợi ích của mọi người.",
+      "humanRights": {
+        "title": "Tiếp cận toàn diện quyền con người",
+        "approach": "Tiếp thu và vận dụng sáng tạo các lý thuyết hiện đại về quyền con người",
+        "categories": [
+          {
+            "id": 1,
+            "title": "Quyền tự nhiên",
+            "description": "Quyền cao nhất là quyền sống",
+            "icon": "life"
+          },
+          {
+            "id": 2,
+            "title": "Quyền chính trị - dân sự",
+            "description": "Các quyền tham gia chính trị và quyền công dân",
+            "icon": "vote"
+          },
+          {
+            "id": 3,
+            "title": "Quyền kinh tế, văn hóa, xã hội",
+            "description": "Quyền về đời sống vật chất và tinh thần",
+            "icon": "economy"
+          },
+          {
+            "id": 4,
+            "title": "Quyền của nhóm người cụ thể",
+            "description": "Phụ nữ, trẻ em, người dân tộc thiểu số, v.v.",
+            "icon": "group"
+          }
+        ],
+        "revolutionaryGoal": "Mục tiêu giải phóng con người, làm cho mọi người có được cuộc sống hạnh phúc, tự do xứng với phẩm giá con người, được hưởng dụng các quyền con người một cách đầy đủ nhất đã hòa quyện một cách hữu cơ và trở thành mục tiêu cao nhất của sự nghiệp cách mạng của dân tộc Việt Nam.",
+        "constitutionalRecognition": "Hiến pháp của đất nước đã ghi nhận một cách toàn diện quyền con người ở Việt Nam. Đó là nền tảng pháp lý để bảo vệ và thực thi các quyền con người đó một cách triệt để."
+      },
+      "humanisticLaw": {
+        "title": "Pháp luật có tính nhân văn, khuyến thiện",
+        "abolishment": "Ngay khi thành lập, Chính phủ lâm thời nước Việt Nam Dân chủ Cộng hòa đã lập tức tuyên bố xoá bỏ mọi luật pháp hà khắc của chính quyền thực dân phản động.",
+        "characteristics": [
+          {
+            "id": 1,
+            "title": "Ghi nhận và bảo vệ quyền con người",
+            "description": "Ghi nhận đầy đủ và bảo vệ quyền con người"
+          },
+          {
+            "id": 2,
+            "title": "Nghiêm minh nhưng công bằng",
+            "description": "Tính nghiêm minh nhưng khách quan và công bằng, tuyệt đối chống đối xử với con người một cách dã man",
+            "quote": "Chính phủ Việt Nam sẽ tha thứ hay trừng trị họ theo luật pháp tuỳ theo thái độ của họ hiện nay và về sau. Nhưng sẽ không có ai bị tàn sát",
+            "author": "Hồ Chí Minh"
+          },
+          {
+            "id": 3,
+            "title": "Tính khuyến thiện",
+            "description": "Bảo vệ cái đúng, cái tốt, lấy mục đích giáo dục, cảm hóa, thức tỉnh con người làm căn bản"
+          },
+          {
+            "id": 4,
+            "title": "Dựa trên nền tảng đạo đức",
+            "description": "Việc xây dựng và thi hành pháp luật phải dựa trên nền tảng đạo đức của xã hội và các giá trị đạo đức thấm sâu vào trong mọi quy định của pháp luật"
+          }
+        ],
+        "essence": "Pháp luật trong Nhà nước pháp quyền nhân nghĩa phải là pháp luật vì con người."
+      }
+    }
+  ]
+}

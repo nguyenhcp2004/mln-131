@@ -1,0 +1,176 @@
+{
+  "documentTitle": "Nhà nước trong sạch, vững mạnh theo tư tưởng Hồ Chí Minh",
+  "documentId": "content7",
+  "uiStructure": [
+    {
+      "sectionId": "section-3",
+      "sectionTitle": "Nhà nước trong sạch, vững mạnh",
+      "icon": "government",
+      "children": [
+        {
+          "subsectionId": "3a",
+          "title": "a. Kiểm soát quyền lực nhà nước",
+          "type": "accordion",
+          "contentBlocks": [
+            {
+              "type": "paragraph",
+              "content": "Để giữ vững bản chất của Nhà nước, bảo đảm cho Nhà nước hoạt động có hiệu quả, phòng chống thoái hóa, biến chất trong đội ngũ cán bộ Nhà nước, Hồ Chí Minh rất chú trọng vấn đề kiểm soát quyền lực nhà nước."
+            },
+            {
+              "type": "paragraph",
+              "content": "Theo quan điểm của Hồ Chí Minh, kiểm soát quyền lực nhà nước là tất yếu. Các cơ quan nhà nước, cán bộ nhà nước, dù ít hay nhiều đều nắm giữ quyền lực trong tay. Quyền lực này là do nhân dân ủy thác cho. Nhưng một khi đã nắm giữ quyền lực, cơ quan nhà nước hay cán bộ nhà nước đều có thể trở nên lạm quyền. Người chỉ rõ:"
+            },
+            {
+              "type": "quote",
+              "author": "Hồ Chí Minh",
+              "content": "Dân ghét các ông chủ tịch, các ông Ủy viên vì cái tật ngông nghênh, cậy thế, cậy quyền. Những ông này không hiểu nhiệm vụ và chính sách của Việt Minh, nên khi nắm được chút quyền trong tay vẫn hay lạm dụng."
+            },
+            {
+              "type": "paragraph",
+              "content": "Vì thế, để đảm bảo tất cả mọi quyền lực thuộc về nhân dân, cần kiểm soát quyền lực nhà nước."
+            },
+            {
+              "type": "subtitle",
+              "text": "Các hình thức kiểm soát quyền lực theo tư tưởng Hồ Chí Minh"
+            },
+            {
+              "type": "cards",
+              "cards": [
+                {
+                  "title": "1. Đảng Cộng sản Việt Nam kiểm soát Nhà nước",
+                  "icon": "party",
+                  "content": "Đảng là đội tiền phong, Đảng cầm quyền nên có quyền và trách nhiệm kiểm soát Nhà nước. Công tác kiểm tra phải có hệ thống, người kiểm tra phải có uy tín, kiểm tra từ trên xuống và từ dưới lên, phải “khéo kiểm soát”.",
+                  "quote": "Muốn hoàn thành tốt mọi việc, thì toàn thể đảng viên và cán bộ phải chấp hành nghiêm chỉnh đường lối và chính sách của Đảng. Và muốn như vậy, các cấp ủy đảng phải tăng cường công tác kiểm tra..."
+                },
+                {
+                  "title": "2. Kiểm soát nội tại trong bộ máy Nhà nước",
+                  "icon": "balance-scale",
+                  "content": "Hiến pháp 1946 quy định Nghị viện nhân dân có quyền kiểm soát và phê bình Chính phủ. Các chức danh không được tín nhiệm đều có thể bị bãi miễn, thể hiện cơ chế kiểm soát quyền lực từ bên trong bộ máy Nhà nước."
+                },
+                {
+                  "title": "3. Nhân dân kiểm soát quyền lực nhà nước",
+                  "icon": "people",
+                  "content": "Nhân dân là chủ thể tối cao của quyền lực. Phải tổ chức để quần chúng tham gia kiểm soát, đôn đốc cán bộ — đây là phương thức kiểm soát sâu rộng và hiệu quả nhất.",
+                  "quote": "Phải tổ chức sự kiểm soát, mà muốn kiểm soát đúng thì cũng phải có quần chúng giúp mới được."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "subsectionId": "3b",
+          "title": "b. Phòng, chống tiêu cực trong Nhà nước",
+          "type": "accordion",
+          "contentBlocks": [
+            {
+              "type": "paragraph",
+              "content": "Trong quá trình lãnh đạo xây dựng Nhà nước Việt Nam, Hồ Chí Minh thường nói đến những tiêu cực sau đây và nhắc nhở mọi người đề phòng và khắc phục."
+            },
+            {
+              "type": "highlightBox",
+              "title": "Các loại tiêu cực chính",
+              "items": [
+                "Đặc quyền, đặc lợi, cửa quyền, hách dịch, chủ nghĩa cá nhân",
+                "Tham ô, lãng phí, quan liêu – “giặc nội xâm”, “giặc ở trong lòng”",
+                "Tư túng, chia rẽ, kéo bè kéo cánh",
+                "Kiêu ngạo, “vác mặt quan cách mạng”"
+              ]
+            },
+            {
+              "type": "quote",
+              "author": "Hồ Chí Minh",
+              "content": "Tham ô, lãng phí và bệnh quan liêu, dù cố ý hay không, cũng là bạn đồng minh của thực dân và phong kiến. Tội lỗi ấy cũng nặng như tội lỗi Việt gian."
+            },
+            {
+              "type": "paragraph",
+              "content": "Ngay từ những năm đầu lập nước, Hồ Chí Minh đã ban hành nhiều sắc lệnh nghiêm khắc như Sắc lệnh phạt tội đưa và nhận hối lộ (5–20 năm tù khổ sai) và quy định tội tham ô có thể bị xử tử."
+            },
+            {
+              "type": "subtitle",
+              "text": "5 biện pháp lớn phòng, chống tiêu cực"
+            },
+            {
+              "type": "numberedCards",
+              "items": [
+                {
+                  "number": 1,
+                  "title": "Thực hành dân chủ rộng rãi",
+                  "content": "Dân chủ là chìa khóa để chống tiêu cực. Dân biết – dân bàn – dân làm – dân kiểm tra giúp hạn chế tối đa sự lạm quyền."
+                },
+                {
+                  "number": 2,
+                  "title": "Pháp quyền nghiêm minh",
+                  "content": "Pháp luật phải được thực thi công bằng, không ngoại lệ, không vùng cấm – đúng tinh thần pháp quyền Hồ Chí Minh."
+                },
+                {
+                  "number": 3,
+                  "title": "Giáo dục là chính",
+                  "content": "Tăng cường giáo dục đạo đức cách mạng, tu dưỡng lương tâm nghề nghiệp.",
+                  "quote": "Cán bộ có quyền mà thiếu lương tâm là có dịp đục khoét, ăn của đút, ‘dĩ công vi tư’."
+                },
+                {
+                  "number": 4,
+                  "title": "Cán bộ nêu gương",
+                  "content": "Cán bộ càng giữ chức vụ cao càng phải gương mẫu, nói đi đôi với làm, đặt lợi ích tập thể lên trên lợi ích cá nhân."
+                },
+                {
+                  "number": 5,
+                  "title": "Phát huy chủ nghĩa yêu nước",
+                  "content": "Lòng yêu nước là động lực quan trọng giúp mỗi người vượt qua cám dỗ, giữ phẩm chất trong sạch."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "section-III",
+      "sectionTitle": "III. VẬN DỤNG TƯ TƯỞNG HỒ CHÍ MINH VÀO XÂY DỰNG ĐẢNG & NHÀ NƯỚC HIỆN NAY",
+      "icon": "flag",
+      "children": [
+        {
+          "subsectionId": "III-1",
+          "title": "1. Xây dựng Đảng thật sự trong sạch, vững mạnh",
+          "type": "accordion",
+          "contentBlocks": [
+            {
+              "type": "list",
+              "style": "check",
+              "items": [
+                "Đề ra đường lối đúng đắn trên cơ sở chủ nghĩa Mác – Lênin và tư tưởng Hồ Chí Minh",
+                "Thể chế hóa và tổ chức thực hiện hiệu quả; nêu cao vai trò người đứng đầu",
+                "Thường xuyên chỉnh đốn Đảng, tự phê bình và phê bình nghiêm túc",
+                "Tăng cường kiểm tra, giám sát để xây dựng Đảng là “đạo đức, là văn minh”",
+                "Đảng viên, sinh viên đảng viên phải là tấm gương sáng về đạo đức, học tập và lối sống"
+              ]
+            }
+          ]
+        },
+        {
+          "subsectionId": "III-2",
+          "title": "2. Xây dựng Nhà nước thật sự trong sạch, vững mạnh",
+          "type": "accordion",
+          "contentBlocks": [
+            {
+              "type": "list",
+              "style": "number",
+              "items": [
+                "Hoàn thiện hệ thống pháp luật; thi hành pháp luật nghiêm minh",
+                "Hoàn thiện cơ chế kiểm soát quyền lực giữa lập pháp – hành pháp – tư pháp",
+                "Xây dựng đội ngũ cán bộ đủ đức – đủ tài; đẩy mạnh thi tuyển, bầu cử minh bạch",
+                "Đẩy mạnh phòng chống tham nhũng, lãng phí, quan liêu; thực hành tiết kiệm",
+                "Đổi mới phương thức lãnh đạo của Đảng; Đảng gương mẫu tuân thủ Hiến pháp và pháp luật",
+                "Khẳng định: Đảng trong sạch, vững mạnh là điều kiện tiên quyết để xây dựng Nhà nước trong sạch, vững mạnh theo tư tưởng Hồ Chí Minh"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "searchIndex": "tư tưởng hồ chí minh, nhà nước trong sạch vững mạnh, kiểm soát quyền lực, phòng chống tham nhũng, tham ô lãng phí quan liêu, chỉnh đốn đảng, dân chủ, pháp quyền, nêu gương",
+  "lastUpdated": "2025-12-08",
+  "totalSections": 2,
+  "totalSubsections": 4
+}

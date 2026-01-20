@@ -1,0 +1,168 @@
+{
+  "title": "BẢN CHẤT GIAI CẤP CÔNG NHÂN CỦA NHÀ NƯỚC VÀ NGUYÊN LÝ NHÀ NƯỚC CỦA NHÂN DÂN",
+  "sections": [
+    {
+      "id": "ban-chat-giai-cap",
+      "title": "1. Bản chất giai cấp của nhà nước",
+      "subtitle": "Nhà nước Việt Nam mang bản chất giai cấp công nhân",
+      "content": [
+        {
+          "type": "intro",
+          "text": "Trong tư tưởng Hồ Chí Minh, Nhà nước Việt Nam là nhà nước dân chủ, nhưng tuyệt nhiên nó không phải là \"Nhà nước toàn dân\", hiểu theo nghĩa là nhà nước phi giai cấp. Nhà nước ở đâu và bao giờ cũng mang bản chất của một giai cấp nhất định."
+        },
+        {
+          "type": "points",
+          "title": "Bản chất giai cấp công nhân thể hiện qua:",
+          "items": [
+            {
+              "number": "Một",
+              "title": "Đảng Cộng sản Việt Nam giữ vị trí cầm quyền",
+              "description": "Nhà nước dân chủ nhân dân, dựa trên nền tảng liên minh công nông, do giai cấp công nhân lãnh đạo",
+              "details": [
+                "Bằng đường lối, quan điểm, chủ trương để Nhà nước thể chế hóa thành pháp luật",
+                "Bằng hoạt động của các tổ chức đảng và đảng viên trong bộ máy nhà nước",
+                "Bằng công tác kiểm tra"
+              ]
+            },
+            {
+              "number": "Hai",
+              "title": "Tính định hướng xã hội chủ nghĩa",
+              "description": "Đưa đất nước đi lên chủ nghĩa xã hội và chủ nghĩa cộng sản là mục tiêu cách mạng nhất quán",
+              "details": [
+                "Giành lấy chính quyền, lập nên Nhà nước Việt Nam mới",
+                "Tạo tổ chức mạnh mẽ cho giai cấp công nhân và nhân dân lao động"
+              ]
+            },
+            {
+              "number": "Ba",
+              "title": "Nguyên tắc tập trung dân chủ",
+              "description": "Hồ Chí Minh chú ý đến cả hai mặt dân chủ và tập trung trong tổ chức và hoạt động",
+              "details": [
+                "Phát huy cao độ dân chủ",
+                "Phát huy cao độ tập trung",
+                "Nhà nước phải tập trung thống nhất quyền lực để tất cả mọi quyền lực thuộc về nhân dân"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tinh-nhan-dan-dan-toc",
+      "title": "2. Bản chất giai cấp thống nhất với tính nhân dân và dân tộc",
+      "subtitle": "Mối quan hệ giữa vấn đề dân tộc với vấn đề giai cấp",
+      "content": [
+        {
+          "type": "points",
+          "items": [
+            {
+              "number": "Một",
+              "title": "Nhà nước là kết quả đấu tranh của toàn dân tộc",
+              "description": "Từ giữa thế kỷ XIX, các tầng lớp nhân dân Việt Nam đã chiến đấu cho độc lập, tự do",
+              "details": [
+                "Từ khi Đảng Cộng sản Việt Nam ra đời, trở thành lực lượng lãnh đạo",
+                "Chiến lược đại đoàn kết đúng đắn tập hợp sức mạnh toàn dân tộc",
+                "Chiến thắng ngoại xâm, lập nên Nhà nước Việt Nam Dân chủ Cộng hòa"
+              ]
+            },
+            {
+              "number": "Hai",
+              "title": "Mục tiêu vì quyền lợi nhân dân và dân tộc",
+              "description": "Quyền lợi giai cấp công nhân thống nhất với lợi ích nhân dân lao động và toàn dân tộc",
+              "details": [
+                "Nhà nước là người đại diện, bảo vệ lợi ích của giai cấp công nhân",
+                "Đồng thời bảo vệ lợi ích của nhân dân lao động",
+                "Và bảo vệ lợi ích của toàn dân tộc"
+              ]
+            },
+            {
+              "number": "Ba",
+              "title": "Đảm đương nhiệm vụ toàn dân tộc giao phó",
+              "description": "Tổ chức nhân dân tiến hành các cuộc kháng chiến và xây dựng đất nước",
+              "details": [
+                "Bảo vệ nền độc lập, tự do của Tổ quốc",
+                "Xây dựng nước Việt Nam hòa bình, thống nhất, độc lập, dân chủ và giàu mạnh",
+                "Góp phần tích cực vào sự phát triển tiến bộ của thế giới"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nha-nuoc-cua-nhan-dan",
+      "title": "3. Nhà nước của nhân dân - \"Dân là chủ\"",
+      "subtitle": "Tất cả mọi quyền lực đều thuộc về nhân dân",
+      "content": [
+        {
+          "type": "quote",
+          "text": "Trong Nhà nước Việt Nam Dân chủ Cộng hoà của chúng ta, tất cả mọi quyền lực đều là của nhân dân",
+          "author": "Hồ Chí Minh"
+        },
+        {
+          "type": "subsection",
+          "title": "Dân chủ trực tiếp",
+          "description": "Nhân dân trực tiếp quyết định mọi vấn đề liên quan đến vận mệnh quốc gia, dân tộc và quyền lợi dân chúng"
+        },
+        {
+          "type": "subsection",
+          "title": "Dân chủ gián tiếp (Dân chủ đại diện)",
+          "description": "Nhân dân thực thi quyền lực thông qua các đại diện mà họ lựa chọn, bầu ra"
+        }
+      ]
+    },
+    {
+      "id": "dan-chu-gian-tiep",
+      "title": "4. Nguyên tắc dân chủ gián tiếp",
+      "subtitle": "Quan hệ giữa nhân dân và nhà nước",
+      "content": [
+        {
+          "type": "principles",
+          "items": [
+            {
+              "title": "Quyền lực nhà nước là \"thừa ủy quyền\" của nhân dân",
+              "quotes": [
+                {
+                  "text": "Dân làm chủ thì Chủ tịch, Bộ trưởng, thứ trưởng, uỷ viên này uỷ viên khác là làm gì? Làm đày tớ. Làm đày tớ cho nhân dân, chứ không phải là làm quan cách mạng",
+                  "author": "Hồ Chí Minh"
+                },
+                {
+                  "text": "Nước ta là nước dân chủ, địa vị cao nhất là dân, vì dân là chủ. Trong bộ máy cách mạng, từ người quét nhà, nấu ăn cho đến Chủ tịch một nước đều là phân công làm đày tớ cho dân",
+                  "author": "Hồ Chí Minh"
+                }
+              ],
+              "keyPoints": [
+                "Cán bộ nhà nước là 'công bộc' của nhân dân",
+                "Gánh vác việc chung cho dân, chứ không phải để đè đầu dân",
+                "Nhân dân là chủ thể nắm giữ mọi quyền lực"
+              ]
+            },
+            {
+              "title": "Nhân dân có quyền kiểm soát và phê bình nhà nước",
+              "quotes": [
+                {
+                  "text": "Mong đồng bào giúp đỡ, đôn đốc, kiểm soát và phê bình để làm trọn nhiệm vụ của mình là người đầy tớ trung thành tận tuỵ của nhân dân",
+                  "author": "Hồ Chí Minh"
+                }
+              ],
+              "keyPoints": [
+                "Nhân dân có quyền bãi miễn đại biểu Quốc hội và Hội đồng nhân dân",
+                "Nếu đại biểu tỏ ra không xứng đáng với sự tín nhiệm",
+                "Nếu Chính phủ làm hại dân thì dân có quyền đuổi Chính phủ"
+              ]
+            },
+            {
+              "title": "Luật pháp dân chủ là công cụ quyền lực của nhân dân",
+              "keyPoints": [
+                "Luật pháp phản ánh ý nguyện của dân chúng",
+                "Bảo vệ quyền lợi của dân chúng",
+                "Là công cụ thực thi quyền lực của nhân dân",
+                "Là phương tiện kiểm soát quyền lực nhà nước"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
