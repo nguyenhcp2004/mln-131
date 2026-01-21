@@ -7,7 +7,7 @@ import { Dancing_Script } from "next/font/google";
 // Font configuration
 const dancingScript = Dancing_Script({
   weight: ["400", "500", "600", "700"],
-  subsets: ["latin", "vietnamese"],
+  subsets: ["latin", "vietnamese"]
 });
 
 // Typewriter Text Component with GSAP
@@ -24,7 +24,7 @@ const TypewriterText = ({
   delay = 0,
   speed = 50,
   className = "",
-  style = {},
+  style = {}
 }: TypewriterTextProps) => {
   const [displayedText, setDisplayedText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -60,7 +60,7 @@ const TypewriterText = ({
         duration: 2,
         repeat: -1,
         yoyo: true,
-        ease: "power1.inOut",
+        ease: "power1.inOut"
       });
     }
   }, []);
@@ -73,7 +73,7 @@ const TypewriterText = ({
         duration: 0.4,
         repeat: -1,
         yoyo: true,
-        ease: "power1.inOut",
+        ease: "power1.inOut"
       });
     }
   }, [isTyping, currentIndex, text.length]);
@@ -85,7 +85,7 @@ const TypewriterText = ({
       style={{
         ...style,
         textShadow:
-          "2px 2px 8px rgba(45, 24, 16, 0.3), 0px 0px 20px rgba(217, 119, 6, 0.1)",
+          "2px 2px 8px rgba(45, 24, 16, 0.3), 0px 0px 20px rgba(217, 119, 6, 0.1)"
       }}
     >
       {displayedText}
@@ -95,7 +95,7 @@ const TypewriterText = ({
           style={{
             color: "#D97706",
             fontWeight: "bold",
-            fontSize: "1.2em",
+            fontSize: "1.2em"
           }}
         >
           |
@@ -106,8 +106,7 @@ const TypewriterText = ({
 };
 
 const AnimatedTitle = () => {
-  const text =
-    "Chương IV: TƯ TƯỞNG HỒ CHÍ MINH VỀ ĐẢNG CỘNG SẢN VIỆT NAM VÀ NHÀ NƯỚC CỦA NHÂN DÂN, DO NHÂN DÂN, VÌ NHÂN DÂN";
+  const text = " HÀNH TRÌNH NHÂN QUYỀN - TỪ QUAN NIỆM ĐẾN HÀNH ĐỘNG";
   const titleRef = useRef<HTMLHeadingElement>(null);
   const charsRef = useRef<(HTMLSpanElement | null)[]>([]);
   const underlineContainerRef = useRef<HTMLDivElement>(null);
@@ -139,7 +138,7 @@ const AnimatedTitle = () => {
             opacity: 0,
             y: 50,
             scale: 0.5,
-            rotationX: -90,
+            rotationX: -90
           },
           {
             opacity: 1,
@@ -168,8 +167,8 @@ const AnimatedTitle = () => {
                     { color: "#D97706" },
                     { color: "#B45309" },
                     { color: "#92400E" },
-                    { color: "#2D1810" },
-                  ],
+                    { color: "#2D1810" }
+                  ]
                 });
 
                 // Y-axis wave animation
@@ -179,10 +178,10 @@ const AnimatedTitle = () => {
                   repeat: -1,
                   yoyo: true,
                   ease: "power1.inOut",
-                  delay: index * 0.07, // Increased from 0.017 for slower wave
+                  delay: index * 0.07 // Increased from 0.017 for slower wave
                 });
               });
-            },
+            }
           }
         );
       }
@@ -203,7 +202,7 @@ const AnimatedTitle = () => {
           duration: 3,
           repeat: -1,
           yoyo: true,
-          ease: "power1.inOut",
+          ease: "power1.inOut"
         });
       }
 
@@ -214,7 +213,7 @@ const AnimatedTitle = () => {
           duration: 4,
           repeat: -1,
           ease: "linear",
-          delay: 1,
+          delay: 1
         });
       }
 
@@ -225,7 +224,7 @@ const AnimatedTitle = () => {
           duration: 2,
           repeat: -1,
           yoyo: true,
-          ease: "power1.inOut",
+          ease: "power1.inOut"
         });
       }
 
@@ -248,7 +247,7 @@ const AnimatedTitle = () => {
             scale: 1,
             delay: 5,
             duration: 0.6,
-            ease: "back.out(1.7)",
+            ease: "back.out(1.7)"
           }
         );
       }
@@ -262,7 +261,7 @@ const AnimatedTitle = () => {
             scale: 1,
             delay: 5.2,
             duration: 0.6,
-            ease: "back.out(1.7)",
+            ease: "back.out(1.7)"
           }
         );
       }
@@ -274,7 +273,7 @@ const AnimatedTitle = () => {
           duration: 2.5,
           repeat: -1,
           yoyo: true,
-          ease: "power1.inOut",
+          ease: "power1.inOut"
         });
       }
     });
@@ -296,7 +295,7 @@ const AnimatedTitle = () => {
               textAlign: "center",
               display: "block",
               maxWidth: "100%",
-              lineHeight: "1.6",
+              lineHeight: "1.6"
             }}
           >
             {text.split(" ").map((word, wIndex) => (
@@ -305,7 +304,7 @@ const AnimatedTitle = () => {
                 style={{
                   display: "inline-block",
                   whiteSpace: "nowrap",
-                  marginRight: "0.25em",
+                  marginRight: "0.25em"
                 }}
               >
                 {word.split("").map((char, cIndex) => (
@@ -318,7 +317,7 @@ const AnimatedTitle = () => {
                     style={{
                       textShadow: "1px 1px 2px rgba(0,0,0,0.1)",
                       willChange: "color, transform, opacity",
-                      color: "#2D1810",
+                      color: "#2D1810"
                     }}
                   >
                     {char}
@@ -335,7 +334,7 @@ const AnimatedTitle = () => {
         ref={underlineContainerRef}
         className="mx-auto w-64 sm:w-80 md:w-96 lg:w-[28rem] xl:w-[32rem] h-2 sm:h-3 md:h-4 relative"
         style={{
-          perspective: "1000px",
+          perspective: "1000px"
         }}
       >
         {/* Main Tapered Bar */}
@@ -352,7 +351,7 @@ const AnimatedTitle = () => {
               inset 0 1px 0 rgba(255, 255, 255, 0.2)
             `,
             transformStyle: "preserve-3d",
-            willChange: "transform",
+            willChange: "transform"
           }}
         >
           {/* Animated Gradient Overlay */}
@@ -364,7 +363,7 @@ const AnimatedTitle = () => {
                 "linear-gradient(90deg, transparent 0%, rgba(217, 119, 6, 0.8) 20%, rgba(180, 83, 9, 0.9) 50%, rgba(217, 119, 6, 0.8) 80%, transparent 100%)",
               borderRadius: "50px",
               willChange: "background-position",
-              backgroundSize: "200% 100%",
+              backgroundSize: "200% 100%"
             }}
           />
 
@@ -377,7 +376,7 @@ const AnimatedTitle = () => {
                 "linear-gradient(90deg, transparent 10%, rgba(255,255,255,0.4) 50%, transparent 90%)",
               borderRadius: "50px 50px 0 0",
               willChange: "opacity",
-              opacity: 0.3,
+              opacity: 0.3
             }}
           />
 
@@ -388,7 +387,7 @@ const AnimatedTitle = () => {
               background:
                 "linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.2) 100%)",
               borderRadius: "50px",
-              transform: "translateZ(-2px) translateY(1px)",
+              transform: "translateZ(-2px) translateY(1px)"
             }}
           />
         </div>
@@ -406,7 +405,7 @@ const AnimatedTitle = () => {
           style={{
             // fontFamily: "'Open Sans', serif",
             color: "#D97706",
-            fontWeight: "bold",
+            fontWeight: "bold"
           }}
         >
           "
@@ -422,7 +421,7 @@ const AnimatedTitle = () => {
               // fontFamily: "'Dancing Script', cursive",
               color: "#D97706",
               letterSpacing: "0.5px",
-              fontWeight: "500",
+              fontWeight: "500"
             }}
           />
         </div>
@@ -434,7 +433,7 @@ const AnimatedTitle = () => {
           style={{
             // fontFamily: "'Open Sans', serif",
             color: "#D97706",
-            fontWeight: "bold",
+            fontWeight: "bold"
           }}
         >
           "
@@ -447,7 +446,7 @@ const AnimatedTitle = () => {
           style={{
             background:
               "radial-gradient(ellipse 300px 80px at center, rgba(217, 119, 6, 0.05), transparent)",
-            willChange: "opacity",
+            willChange: "opacity"
           }}
         />
       </div>

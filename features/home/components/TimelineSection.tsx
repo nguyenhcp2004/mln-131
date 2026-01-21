@@ -17,8 +17,10 @@ interface TimelineSectionProps {
   linkPrefix?: string;
 }
 
-const TimelineSection = ({ posts = defaultPosts, linkPrefix = "/timeline" }: TimelineSectionProps) => {
-  
+const TimelineSection = ({
+  posts = defaultPosts,
+  linkPrefix = "/timeline"
+}: TimelineSectionProps) => {
   const lineRef = useRef<HTMLDivElement>(null);
   const headerRef = useRef<HTMLDivElement>(null);
 
@@ -36,8 +38,8 @@ const TimelineSection = ({ posts = defaultPosts, linkPrefix = "/timeline" }: Tim
           scrollTrigger: {
             trigger: headerRef.current,
             start: "top 85%",
-            once: true,
-          },
+            once: true
+          }
         }
       );
     }
@@ -51,18 +53,20 @@ const TimelineSection = ({ posts = defaultPosts, linkPrefix = "/timeline" }: Tim
           trigger: lineRef.current,
           start: "top bottom", // Start when timeline enters viewport
           end: "bottom top", // End when timeline exits viewport
-          scrub: 0.3, // Smooth scroll-linked
-        },
+          scrub: 0.3 // Smooth scroll-linked
+        }
       });
     }
   }, []);
 
   // Sort posts by milestone year
-  const sortedPosts = [...posts].sort((a, b) => {
-    const yearA = parseInt(a.milestone.split("–")[0] || a.milestone);
-    const yearB = parseInt(b.milestone.split("–")[0] || b.milestone);
-    return yearA - yearB;
-  });
+  const sortedPosts = [...posts]
+    .sort((a, b) => {
+      const yearA = parseInt(a.milestone.split("–")[0] || a.milestone);
+      const yearB = parseInt(b.milestone.split("–")[0] || b.milestone);
+      return yearA - yearB;
+    })
+    .slice(0, 4); // Limit to first 4 milestones
 
   return (
     <div className="container mx-auto px-6 py-24">
@@ -93,7 +97,12 @@ const TimelineSection = ({ posts = defaultPosts, linkPrefix = "/timeline" }: Tim
           {/* Timeline Items */}
           <div className="relative pt-8">
             {sortedPosts.map((post, index) => (
-              <TimelineItem key={post.id} post={post} index={index} linkPrefix={linkPrefix} />
+              <TimelineItem
+                key={post.id}
+                post={post}
+                index={index}
+                linkPrefix={linkPrefix}
+              />
             ))}
           </div>
 
