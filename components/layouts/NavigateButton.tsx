@@ -4,11 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   Home,
-  Gamepad2,
-  BookOpen,
   Bot,
   ClipboardList,
   Landmark,
+  Scale,
+  PersonStanding,
 } from "lucide-react";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
@@ -21,8 +21,8 @@ const NavigateButton = () => {
   const routes = [
     { name: "Trang chủ", path: "/", icon: Home },
 
-    { name: "Game", path: "/game", icon: Gamepad2 },
-    { name: "Tài Liệu", path: "/tai-lieu", icon: BookOpen },
+    { name: "So sánh quan điểm", path: "/compare", icon: Scale },
+    { name: "Con người trong XHCN", path: "/human-rights", icon: PersonStanding },
     { name: "Used AI", path: "/used-ai", icon: Bot },
     {
       name: "Board",
