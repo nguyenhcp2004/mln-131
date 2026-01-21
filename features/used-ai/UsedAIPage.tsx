@@ -24,11 +24,10 @@ const aiTools: AITool[] = [
     name: "ChatGPT",
     icon: <MessageSquare className="w-8 h-8" />,
     description:
-      "Trợ lý AI mạnh mẽ hỗ trợ nghiên cứu, viết nội dung và giải đáp thắc mắc về tư tưởng Hồ Chí Minh.",
+      "Trợ lý AI mạnh mẽ hỗ trợ nghiên cứu, viết nội dung và giải đáp thắc mắc về quyền con người trong CNXH.",
     features: [
-      "Tổng hợp và phân tích tài liệu lịch sử",
+      "Tổng hợp và phân tích tài liệu chương học",
       "Hỗ trợ viết nội dung học thuật",
-      "Giải đáp câu hỏi về tư tưởng chính trị",
       "Đề xuất ý tưởng sáng tạo cho dự án",
     ],
     link: "https://chat.openai.com",
@@ -40,9 +39,8 @@ const aiTools: AITool[] = [
       "AI đa phương thức của Google, kết hợp văn bản, hình ảnh và dữ liệu để tạo nội dung phong phú. Hỗ trợ tạo hình ảnh AI từ mô tả văn bản.",
     features: [
       "Tìm kiếm và tổng hợp thông tin",
-      "Phân tích hình ảnh lịch sử",
       "Tạo hình ảnh AI từ mô tả",
-      "Tạo sơ đồ tư duy",
+      "Hỗ trợ suy nghĩ các trò chơi tương tác",
       "Đề xuất cấu trúc nội dung",
     ],
     link: "https://gemini.google.com",
@@ -51,25 +49,24 @@ const aiTools: AITool[] = [
     name: "NotebookLM",
     icon: <BookOpen className="w-8 h-8" />,
     description:
-      "Công cụ AI của Google chuyên phân tích nội dung từ giáo trình chuẩn, tài liệu học thuật và tạo video AI tóm tắt nội dung.",
+      "Công cụ AI của Google chuyên phân tích nội dung từ giáo trình chuẩn, tài liệu học thuật.",
     features: [
       "Phân tích sâu tài liệu giáo trình",
       "Tổng hợp kiến thức từ nhiều nguồn",
-      "Tạo video AI tóm tắt nội dung",
       "Trích xuất thông tin quan trọng",
-      "Hỏi đáp dựa trên tài liệu",
+      "Kiểm tra sự liên kết giữa nội dung chương và sản phẩm sáng tạo",
     ],
     link: "https://notebooklm.google.com",
   },
   {
-    name: "Cursor",
+    name: "Github Copilot",
     icon: <Code className="w-8 h-8" />,
     description:
       "Trình soạn thảo code tích hợp AI, hỗ trợ lập trình viên viết code nhanh hơn với khả năng hiểu ngữ cảnh dự án và gợi ý thông minh.",
     features: [
       "Code completion thông minh với AI",
     ],
-    link: "https://cursor.sh",
+    link: "https://github.com/features/copilot",
   },
 ];
 
@@ -309,7 +306,7 @@ const UsedAIPage = () => {
         </div>
 
         {/* Reference Links Section */}
-        <div className="mt-16">
+        {/* <div className="mt-16">
           <h3 className="text-3xl font-bold text-amber-100 mb-6 text-center">
             Nguồn Tài Liệu Tham Khảo
           </h3>
@@ -351,7 +348,7 @@ const UsedAIPage = () => {
               </a>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Footer Note */}
         <div className="mt-12 text-center">

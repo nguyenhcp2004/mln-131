@@ -20,8 +20,8 @@ const crimsonText = Crimson_Text({
 });
 
 export const metadata: Metadata = {
-  title: "Tư tưởng của chủ tịch Hồ Chí Minh",
-  description: "Nội dung được tạo và hoàn thiện bởi nhóm 4",
+  title: "Hành trình nhân quyền",
+  description: "MLN131 - Nội dung được tạo và hoàn thiện bởi nhóm 3",
 };
 
 export default function RootLayout({

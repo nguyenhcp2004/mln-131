@@ -18,11 +18,11 @@ const MainLayout = ({ children }: MainLayoutProps) => {
         {/* Background Image Layer */}
         <div className="fixed inset-0 z-0">
           <Image
-            src="/images/bg-1.png"
+            src="/images/bg-3.png"
             alt="Background"
             fill
             priority
-            quality={90}
+            quality={75}
             className="object-cover"
             sizes="100vw"
           />

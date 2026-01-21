@@ -130,16 +130,16 @@ export default function WelcomeScreen({
           ref={titleRef}
           className="text-5xl md:text-7xl font-bold text-amber-400 mb-6 drop-shadow-2xl"
         >
-          TƯ TƯỞNG HỒ CHÍ MINH
+          Hành Trình Nhân Quyền
         </h1>
 
         <h2
           ref={subtitleRef}
           className="text-xl md:text-2xl font-semibold text-white/90 mb-12 px-4 leading-relaxed"
         >
-          Đảng Cộng sản Việt Nam và
+          Cùng tham gia vào trò chơi
           <br />
-          Nhà nước của nhân dân, do nhân dân, vì nhân dân
+          Để hiểu hơn và &quot;Thử thách trí nhớ&quot; của mình nhé!
         </h2>
 
         {/* Main CTA Button */}
