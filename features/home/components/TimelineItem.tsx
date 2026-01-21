@@ -3,7 +3,7 @@
 import { PostType } from "@/common/types/post.type";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { Calendar, ExternalLink, ArrowRight } from "lucide-react";
+import { Calendar, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 interface TimelineItemProps {
@@ -15,7 +15,7 @@ interface TimelineItemProps {
 export const TimelineItem: React.FC<TimelineItemProps> = ({
   post,
   index,
-  linkPrefix = "/timeline",
+  linkPrefix = "/timeline"
 }) => {
   const itemRef = useRef<HTMLDivElement>(null);
   const cardRef = useRef<HTMLDivElement>(null);
@@ -30,7 +30,7 @@ export const TimelineItem: React.FC<TimelineItemProps> = ({
           cardRef.current,
           {
             opacity: 0,
-            x: isEven ? -80 : 80,
+            x: isEven ? -80 : 80
           },
           {
             opacity: 1,
@@ -40,8 +40,8 @@ export const TimelineItem: React.FC<TimelineItemProps> = ({
             scrollTrigger: {
               trigger: itemRef.current,
               start: "top 85%",
-              once: true,
-            },
+              once: true
+            }
           }
         );
       }
@@ -52,7 +52,7 @@ export const TimelineItem: React.FC<TimelineItemProps> = ({
           circleRef.current,
           {
             scale: 0,
-            opacity: 0,
+            opacity: 0
           },
           {
             scale: 1,
@@ -63,8 +63,8 @@ export const TimelineItem: React.FC<TimelineItemProps> = ({
             scrollTrigger: {
               trigger: itemRef.current,
               start: "top 85%",
-              once: true,
-            },
+              once: true
+            }
           }
         );
       }
@@ -96,9 +96,9 @@ export const TimelineItem: React.FC<TimelineItemProps> = ({
             }`}
           >
             <Calendar className="w-4 h-4 text-amber-400" />
-            <span className="text-amber-400 font-bold text-sm">
+            {/* <span className="text-amber-400 font-bold text-sm">
               {post.milestone}
-            </span>
+            </span> */}
           </div>
 
           {/* Title */}
