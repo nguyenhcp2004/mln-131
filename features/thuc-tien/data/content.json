@@ -1,0 +1,99 @@
+{
+  "title": "Thực tiễn tại Việt Nam",
+  "subtitle": "Những chính sách hỗ trợ người dân và trách nhiệm công dân trong xây dựng đất nước",
+  "sections": [
+    {
+      "id": "phu-nu",
+      "title": "Chính sách cho phụ nữ",
+      "icon": "heart",
+      "description": "Theo văn kiện Đại hội XII của Đảng (tháng 01-2016) xác định phương hướng: Nâng cao trình độ mọi mặt và đời sống vật chất, tinh thần của phụ nữ. Nghiên cứu, bổ sung và hoàn thiện luật pháp, chính sách đối với lao động nữ, tạo điều kiện để phụ nữ thực hiện tốt vai trò và trách nhiệm của mình. Kiên quyết đấu tranh chống các tệ nạn xã hội và xử lý nghiêm minh theo pháp luật các hành vi bạo lực, buôn bán, xâm hại nhân phẩm phụ nữ.",
+      "images": [
+        "https://mtcs.1cdn.vn/thumbs/540x360/2024/10/19/pn.jpg",
+        "https://icdn.dantri.com.vn/HvrZZiM2C5QLR4u67tfR/Image/2012/04/631_54dc2.JPG"
+      ]
+    },
+    {
+      "id": "nguoi-ngheo",
+      "title": "Chính sách cho người nghèo, tàn tật, hoặc không có khả năng lao động",
+      "icon": "users",
+      "description": "Những chính sách hỗ trợ người thuộc diện khó khăn trong xã hội",
+      "policies": [
+        "Người thuộc diện khó khăn sẽ được hưởng trợ cấp hàng tháng, hỗ trợ tiền điện, nước sinh hoạt.",
+        "Hỗ trợ 100% chi phí khám chữa bệnh, đóng bảo hiểm y tế (BHYT) cho hộ nghèo.",
+        "Người cao tuổi thuộc hộ nghèo, cận nghèo được hưởng trợ cấp hưu trí xã hội.",
+        "Miễn giảm học phí cho học sinh, sinh viên thuộc hộ nghèo.",
+        "Đầu tư xây dựng cơ sở vật chất trường lớp, đặc biệt ở vùng khó khăn.",
+        "Xóa nhà tạm: Thực hiện chương trình xóa nhà tạm, nhà dột nát.",
+        "Nhà ở xã hội: Đẩy mạnh các dự án nhà ở xã hội, nhà ở cho người có thu nhập thấp.",
+        "Dạy nghề & Tạo việc làm: Tổ chức dạy nghề ngắn hạn, đào tạo kỹ năng, giúp người nghèo có việc làm ổn định.",
+        "Hỗ trợ sản xuất: Hỗ trợ đất đai, tư liệu sản xuất, hướng dẫn kỹ thuật khuyến nông, lâm, ngư.",
+        "Thực hiện chương trình giảm nghèo bền vững, hỗ trợ kết cấu hạ tầng, phát triển kinh tế vùng nghèo."
+      ],
+      "images": [
+        "https://bcp.cdnchinhphu.vn/Uploaded/buithuhuong/2020_04_09/ho%20tro3.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj_BzP5IaP_MIhdhpGKEplGa-R2ygTqiiucg&s"
+      ]
+    }
+  ],
+  "challenges": {
+    "title": "Những khó khăn",
+    "corruption": {
+      "title": "Cuộc chiến chống \"Nội xâm\" (Tham nhũng)",
+      "definition": "Theo chủ nghĩa xã hội khoa học (CNXHKH), tham nhũng là hành vi lợi dụng chức vụ, quyền lực nhà nước (do nhân dân ủy quyền) vì lợi ích cá nhân, vật chất (vụ lợi), làm tha hóa quyền lực, gây thiệt hại đến tài sản nhà nước, tập thể và nhân dân, đi ngược lại mục tiêu \"của dân, do dân, vì dân\", thể hiện sự biến chất trong bộ máy công quyền.",
+      "behaviors": [
+        "Tham ô tài sản",
+        "Nhận hối lộ",
+        "Lạm dụng chức vụ, quyền hạn chiếm đoạt tài sản",
+        "Lợi dụng chức vụ, quyền hạn trong khi thi hành nhiệm vụ, công vụ vì vụ lợi",
+        "Lạm quyền trong khi thi hành nhiệm vụ, công vụ vì vụ lợi",
+        "Lợi dụng chức vụ, quyền hạn gây ảnh hưởng đối với người khác để trục lợi",
+        "Giả mạo trong công tác vì vụ lợi",
+        "Đưa hối lộ, môi giới hối lộ để giải quyết công việc của cơ quan, tổ chức, đơn vị hoặc địa phương vì vụ lợi",
+        "Lợi dụng chức vụ, quyền hạn sử dụng trái phép tài sản công vì vụ lợi",
+        "Nhũng nhiễu vì vụ lợi",
+        "Không thực hiện, thực hiện không đúng hoặc không đầy đủ nhiệm vụ, công vụ vì vụ lợi",
+        "Lợi dụng chức vụ, quyền hạn để bao che cho người có hành vi vi phạm pháp luật vì vụ lợi; cản trở, can thiệp trái pháp luật vào việc giám sát, kiểm tra, thanh tra, kiểm toán, điều tra, truy tố, xét xử, thi hành án vì vụ lợi"
+      ],
+      "whyImportant": {
+        "title": "Vì sao phòng chống tham nhũng chính là bảo vệ quyền con người",
+        "content": "Về bản chất, tham nhũng trực tiếp xâm phạm quyền con người. Khi nguồn lực xã hội bị thất thoát, các quyền cơ bản của người dân như quyền được học tập trong môi trường giáo dục đầy đủ, quyền được chăm sóc y tế, quyền được bảo đảm an sinh xã hội… không còn được thực hiện một cách đầy đủ và công bằng. Người chịu thiệt hại cuối cùng không phải là nhà nước trừu tượng, mà chính là nhân dân, đặc biệt là các nhóm yếu thế trong xã hội. Do đó, tham nhũng không chỉ là vi phạm pháp luật mà còn là hành vi đi ngược lại mục tiêu giải phóng con người của chủ nghĩa xã hội."
+      },
+      "images": [
+        "https://c.baothanhhoa.vn/img/desktop/news/2528/177d1200026t83022l0.webp?r=527",
+        "https://cdn.tapchitoaan.vn//media/files/1%20(1)(10).jpg"
+      ]
+    }
+  },
+  "citizenResponsibilities": {
+    "title": "Trách nhiệm công dân",
+    "intro": "Trong công cuộc xây dựng và bảo vệ nền thể chế Việt Nam, mỗi người dân đều phải có trách nhiệm:",
+    "responsibilities": [
+      {
+        "id": 1,
+        "title": "Thực hiện quyền làm chủ",
+        "content": "Người dân có trách nhiệm chủ động tham gia vào các hoạt động chính trị – xã hội, từ bầu cử đến giám sát và đóng góp ý kiến, nhằm bảo đảm quyền lực nhà nước thực sự thuộc về nhân dân."
+      },
+      {
+        "id": 2,
+        "title": "Tuân thủ pháp luật",
+        "content": "Mỗi công dân phải tôn trọng và chấp hành pháp luật, coi đó là biểu hiện của ý thức làm chủ và là điều kiện để duy trì trật tự, công bằng xã hội."
+      },
+      {
+        "id": 3,
+        "title": "Lao động và cống hiến",
+        "content": "Người dân có trách nhiệm lao động trung thực, sáng tạo để tạo ra của cải vật chất và tinh thần phục vụ sự phát triển chung của xã hội."
+      },
+      {
+        "id": 4,
+        "title": "Bảo vệ lợi ích chung",
+        "content": "Mỗi công dân phải có ý thức bảo vệ tài sản công, lợi ích cộng đồng và tích cực đấu tranh chống các hành vi xâm hại như tham nhũng, lãng phí."
+      },
+      {
+        "id": 5,
+        "title": "Xây dựng đạo đức xã hội chủ nghĩa",
+        "content": "Người dân có trách nhiệm rèn luyện phẩm chất đạo đức, tinh thần đoàn kết và lối sống nhân văn, góp phần xây dựng con người mới xã hội chủ nghĩa."
+      }
+    ],
+    "image": "https://cdn.accgroup.vn/wp-content/uploads/2022/10/Vi-du-ve-quyen-va-nghia-vu-cua-cong-dan.png"
+  }
+}

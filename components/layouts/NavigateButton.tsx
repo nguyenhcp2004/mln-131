@@ -8,7 +8,7 @@ import {
   ClipboardList,
   Landmark,
   Scale,
-  PersonStanding,
+  PersonStanding
 } from "lucide-react";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
@@ -22,15 +22,23 @@ const NavigateButton = () => {
     { name: "Trang chủ", path: "/", icon: Home },
 
     { name: "So sánh quan điểm", path: "/compare", icon: Scale },
-    { name: "Con người trong XHCN", path: "/human-rights", icon: PersonStanding },
+    {
+      name: "Con người trong XHCN",
+      path: "/human-rights",
+      icon: PersonStanding
+    },
     { name: "Used AI", path: "/used-ai", icon: Bot },
     {
       name: "Board",
       path: "https://museum-3d.vercel.app/",
       icon: Landmark,
-      external: true,
+      external: true
     },
-    { name: "Contents", path: "/contents", icon: ClipboardList },
+    {
+      name: "Thực tiễn tại Việt Nam",
+      path: "/thuc-tien-hien-nay",
+      icon: ClipboardList
+    }
   ];
 
   // Initial animation on mount
@@ -42,14 +50,14 @@ const NavigateButton = () => {
         {
           x: 100,
           opacity: 0,
-          scale: 0.8,
+          scale: 0.8
         },
         {
           x: 0,
           opacity: 1,
           scale: 1,
           duration: 0.8,
-          ease: "back.out(1.7)",
+          ease: "back.out(1.7)"
         }
       );
 
@@ -59,7 +67,7 @@ const NavigateButton = () => {
         {
           scale: 0,
           opacity: 0,
-          rotation: -180,
+          rotation: -180
         },
         {
           scale: 1,
@@ -68,7 +76,7 @@ const NavigateButton = () => {
           duration: 0.6,
           stagger: 0.1,
           ease: "elastic.out(1, 0.5)",
-          delay: 0.3,
+          delay: 0.3
         }
       );
     }
@@ -90,7 +98,7 @@ const NavigateButton = () => {
     gsap.to(item, {
       scale: 1.1,
       duration: 0.3,
-      ease: "power2.out",
+      ease: "power2.out"
     });
 
     if (icon) {
@@ -98,7 +106,7 @@ const NavigateButton = () => {
         rotation: 360,
         scale: 1.2,
         duration: 0.5,
-        ease: "back.out(1.7)",
+        ease: "back.out(1.7)"
       });
     }
 
@@ -107,7 +115,7 @@ const NavigateButton = () => {
         opacity: 1,
         x: -5,
         duration: 0.3,
-        ease: "power2.out",
+        ease: "power2.out"
       });
     }
   };
@@ -127,7 +135,7 @@ const NavigateButton = () => {
     gsap.to(item, {
       scale: 1,
       duration: 0.3,
-      ease: "power2.out",
+      ease: "power2.out"
     });
 
     if (icon) {
@@ -135,7 +143,7 @@ const NavigateButton = () => {
         rotation: 0,
         scale: 1,
         duration: 0.3,
-        ease: "power2.out",
+        ease: "power2.out"
       });
     }
 
@@ -144,7 +152,7 @@ const NavigateButton = () => {
         opacity: 0,
         x: 0,
         duration: 0.2,
-        ease: "power2.in",
+        ease: "power2.in"
       });
     }
   };
