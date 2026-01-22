@@ -294,9 +294,6 @@ export default function ThucTienPage() {
               </div>
             </TabsContent>
           </Tabs>
-
-          {/* Content Navigation */}
-          <ContentNavigation />
         </div>
       </div>
     </div>
