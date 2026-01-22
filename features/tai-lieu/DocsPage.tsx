@@ -23,7 +23,7 @@ const TaiLieuPage = () => {
 
           <div className="mb-8 sm:mb-12">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-amber-200 to-amber-400 bg-clip-text text-transparent">
-              Tư tưởng Hồ Chí Minh
+              Quá trình hình thành và phát triển
             </h1>
             <div className="h-1 w-24 bg-gradient-to-r from-amber-500 to-amber-700 rounded-full"></div>
           </div>
@@ -34,11 +34,7 @@ const TaiLieuPage = () => {
               Giới thiệu
             </h2>
             <p className="text-white/90 text-base sm:text-lg leading-relaxed">
-              Tư tưởng Hồ Chí Minh là hệ thống quan điểm toàn diện và sâu sắc về
-              những vấn đề cơ bản của cách mạng Việt Nam, là kết quả của sự vận
-              dụng sáng tạo chủ nghĩa Mác - Lênin vào điều kiện cụ thể của Việt
-              Nam, kế thừa và phát triển các giá trị truyền thống tốt đẹp của
-              dân tộc, tiếp thu tinh hoa văn hóa nhân loại.
+              Quyền con người là kết quả của một quá trình phát triển lịch sử lâu dài. Qua các thời kỳ xã hội khác nhau, nội dung và phạm vi của quyền con người ngày càng được mở rộng, từ đặc quyền của thiểu số đến các quyền phổ quát cho mọi cá nhân.
             </p>
           </div>
         </div>
