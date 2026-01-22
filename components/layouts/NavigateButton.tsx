@@ -30,7 +30,7 @@ const NavigateButton = () => {
     { name: "Used AI", path: "/used-ai", icon: Bot },
     {
       name: "Board",
-      path: "https://museum-3d.vercel.app/",
+      path: "https://museum3d.vercel.app/",
       icon: Landmark,
       external: true
     },
