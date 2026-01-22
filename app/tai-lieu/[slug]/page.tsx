@@ -12,7 +12,7 @@ import { getPostBySlug } from "@/features/tai-lieu/data";
 import AudioPlayer from "@/components/AudioPlayer";
 
 export default function TaiLieuSlugPage({
-  params,
+  params
 }: {
   params: Promise<{ slug: string }>;
 }) {
@@ -67,12 +67,15 @@ export default function TaiLieuSlugPage({
             </div>
 
             {post.image && post.image.length > 0 && (
-              <div className="mb-6">
-                <img
-                  src={post.image[0]}
-                  alt={post.title}
-                  className="w-full max-w-2xl mx-auto rounded-xl shadow-lg"
-                />
+              <div className="mb-6 space-y-4">
+                {post.image.map((img, index) => (
+                  <img
+                    key={index}
+                    src={img}
+                    alt={`${post.title} - ${index + 1}`}
+                    className="w-full max-w-2xl mx-auto rounded-xl shadow-lg"
+                  />
+                ))}
               </div>
             )}
 

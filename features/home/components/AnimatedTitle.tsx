@@ -414,7 +414,7 @@ const AnimatedTitle = () => {
         {/* Card Container for Quote */}
         <div className="relative rounded-2xl border-2 border-amber-700/40 bg-black/20 backdrop-blur-sm p-3">
           <TypewriterText
-            text="Bao nhiêu lợi ích đều vì dân. Bao nhiêu quyền hạn đều của dân. Công việc đổi mới xây dựng là trách nhiệm của dân."
+            text="Quyền con người không chỉ là những dòng chữ trên giấy, mà phải được đảm bảo bằng việc xóa bỏ các điều kiện gây ra sự bất bình đẳng trong đời sống kinh tế - xã hội."
             delay={5.5}
             className={`text-lg sm:text-xl md:text-2xl lg:text-3xl font-normal leading-relaxed text-center ${dancingScript.className}`}
             style={{
