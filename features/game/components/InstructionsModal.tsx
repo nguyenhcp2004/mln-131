@@ -87,7 +87,7 @@ export default function InstructionsModal({
                         ★
                       </span>
                       <span>
-                        Trả lời câu hỏi trắc nghiệm về tư tưởng Hồ Chí Minh
+                        Trả lời câu hỏi trắc nghiệm
                       </span>
                     </li>
                     <li className="flex items-start gap-3">

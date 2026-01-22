@@ -265,7 +265,7 @@ export default function HumanRightsPage() {
                   </h3>
 
                   {/* Hint Images */}
-                  <div className="grid grid-cols-2 gap-6 mb-8 max-w-2xl mx-auto">
+                  <div className="grid grid-cols-2 gap-6 mb-8 max-w-3xl mx-auto">
                     {currentPuzzle.imageUrls.map((url, idx) => (
                       <motion.div
                         key={idx}

@@ -143,7 +143,7 @@ const MusicPlay = () => {
         {/* Hidden Audio Element */}
         <audio
           ref={audioRef}
-          src="/music/nguoi_di_tim_hinh_cua_nuoc.mp3"
+          src="/music/cho_dong_bao_toi.mp3"
           loop
           onEnded={() => setIsPlaying(false)}
         />
