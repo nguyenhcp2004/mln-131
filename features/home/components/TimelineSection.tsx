@@ -79,9 +79,8 @@ const TimelineSection = ({
             </h2>
           </div>
 
-          <p className="text-amber-200/80 text-xl max-w-2xl mx-auto">
-            Hành trình 7 cột mốc quan trọng trong tư tưởng Hồ Chí Minh về xây
-            dựng Đảng và Nhà nước
+          <p className="text-amber-200/80 text-lg max-w-2xl mx-auto">
+            Quá trình hình thành và phát triển của quyền con người qua các hình thái xã hội.
           </p>
         </div>
 

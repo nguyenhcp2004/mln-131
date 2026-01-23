@@ -46,7 +46,7 @@ export default function TaiLieuSlugPage({
               <div className="flex items-center gap-2 justify-between">
                 <div className="inline-block px-3 py-1 bg-amber-600/20 backdrop-blur-sm border border-amber-600/30 rounded-full mb-4">
                   <span className="text-amber-200 text-sm font-medium">
-                    {post.milestone}
+                    Chi tiết
                   </span>
                 </div>
                 {post.audio && (

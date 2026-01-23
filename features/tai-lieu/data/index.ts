@@ -6,7 +6,7 @@ export const posts: PostType[] = [
     slug: "con-nguoi-trong-xa-hoi-chiem-huu-no-le",
     title: " CON NGƯỜI TRONG XÃ HỘI CHIẾM HỮU NÔ LỆ",
     milestone: "1927",
-    audio: "/audio/cotmoc1.mp3",
+    audio: "/audio/chiem_huu_no_le.mp3",
     shortDescription:
       "Khám phá thân phận con người trong thời kỳ chiếm hữu nô lệ, nơi nô lệ bị coi là 'công cụ lao động sống' và quyền dân chủ chỉ là đặc quyền hạn hẹp của giai cấp thống trị.",
     content:
@@ -58,15 +58,15 @@ export const posts: PostType[] = [
     slug: "con-nguoi-trong-xa-hoi-phong-kien",
     title: "CON NGƯỜI TRONG XÃ HỘI PHONG KIẾN",
     milestone: "1945",
-    audio: "/audio/cotmoc4.mp3",
+    audio: "/audio/phong_kien.mp3",
     shortDescription:
       "Khám phá thời kỳ phong kiến khi con người thoát khỏi thân phận nô lệ nhưng vẫn bị ràng buộc bởi quan hệ lệ thuộc lãnh chúa. Tìm hiểu cách 'thiên mệnh' và 'thần quyền' trở thành công cụ áp đặt trật tự xã hội và phủ nhận quyền cá nhân độc lập.",
     content:
       'Sang thời kỳ phong kiến, tuy chế độ nô lệ dần bị thay thế, nhưng con người vẫn bị ràng buộc chặt chẽ vào các quan hệ lệ thuộc. Nông dân trở thành thần dân, bị bóc lột thông qua địa tô, sưu thuế và lao dịch. Quyền lực chính trị tập trung trong tay vua chúa và tầng lớp quý tộc phong kiến, thường được biện minh bằng “thiên mệnh” hay trật tự thần quyền. Nhân phẩm con người bị đánh giá thấp; cá nhân không được thừa nhận như một chủ thể độc lập, mà chủ yếu tồn tại như một phần của trật tự xã hội cố định. Nhận xét ngắn: → Con người là "thần dân", lệ thuộc vào thần quyền và thiên mệnh. Cá nhân chưa được thừa nhận là một chủ thể độc lập.',
     image: ["/image/phong-kien-phuong-tay.png", "/image/ss2.png"],
     linkResource: [
-      "https://laodong.vn/lao-dong-cuoi-tuan/tu-gia-phong-trong-gia-dinh-thoi-phong-kien-den-gia-dinh-nguoi-viet-duong-dai-974894.ldo",
-      "https://danchuphapluat.vn/nguon-goc-tu-tuong-ve-quyen-con-nguoi-va-su-phat-trien-tu-tuong-hien-dinh-ve-quyen-con-nguoi-quyen-cong-dan-o-viet-nam-truoc-nam-1946-4375.html"
+      "https://diendan.hocluat.vn/viewtopic.php?t=11341",
+      "https://www.history.com/articles/feudalism"
     ]
   },
   {
@@ -74,15 +74,15 @@ export const posts: PostType[] = [
     slug: "con-nguoi-trong-xa-hoi-tu-ban-chu-nghia",
     title: "CON NGƯỜI TRONG XÃ HỘI TƯ BẢN CHỦ NGHĨA",
     milestone: "1946",
-    audio: "/audio/cotmoc5.mp3",
+    audio: "/audio/tu_ban_chu_nghia.mp3",
     shortDescription:
       "Khám phá bước ngoặt của các cuộc cách mạng tư sản trong việc xác lập quyền tự nhiên của con người. Tuy nhiên, hãy cùng phân tích mặt trái khi quyền tự do cá nhân bị chi phối bởi quyền sở hữu vốn và sự bất bình đẳng kinh tế sâu sắc.",
     content:
       "Sự ra đời của chủ nghĩa tư bản, gắn liền với các cuộc cách mạng tư sản (Anh, Mỹ, Pháp), đã đánh dấu một bước ngoặt lớn trong nhận thức về con người. Các tư tưởng khai sáng đề cao tự do cá nhân, bình đẳng trước pháp luật và quyền công dân. Những văn kiện lịch sử như Tuyên ngôn Nhân quyền và Dân quyền (1789) đã khẳng định con người sinh ra vốn có quyền tự nhiên và bất khả xâm phạm. Tuy nhiên, trên thực tế, quyền con người trong xã hội tư bản vẫn chịu sự chi phối mạnh mẽ bởi quyền sở hữu tư liệu sản xuất. Dân chủ chủ yếu mang tính hình thức và chính trị, trong khi bất bình đẳng kinh tế – xã hội ngày càng sâu sắc. Quyền lực thực tế tập trung vào tay những người sở hữu vốn, còn người lao động tuy “tự do” về pháp lý nhưng lại phụ thuộc vào thị trường lao động để tồn tại. Điều này khiến tự do của họ mang tính tương đối, thậm chí bị giới hạn bởi điều kiện kinh tế.→ Dân chủ tư sản là một bước tiến quan trọng, nhưng chưa giải quyết triệt để mối quan hệ giữa tự do chính trị và công bằng xã hội. Nhận xét ngắn: → Bước ngoặt lớn với các quyền tự nhiên. Tuy nhiên, dân chủ tư sản vẫn dựa trên chế độ tư hữu, dẫn đến sự bất bình đẳng sâu sắc giữa người sở hữu vốn và người bán sức lao động. Dân chủ lúc này chủ yếu mang tính hình thức.",
     image: ["/image/tu-ban-chu-nghia.jpg", "/image/ss3.png"],
     linkResource: [
-      "https://tapchicongsan.org.vn/web/guest/kinh-te/-/2018/20369/vi-con-nguoi-xa-hoi-chu-nghia%21.aspx",
-      "https://baoquankhu7.vn/muon-xay-dung-chu-nghia-xa-hoi-phai-co-con-nguoi-xa-hoi-chu-nghia-va-co-tu-tuong-xa-hoi-chu-nghia-1740318005-0018539s34810gs"
+      "https://vi.wikipedia.org/wiki/Ch%E1%BB%A7_ngh%C4%A9a_t%C6%B0_b%E1%BA%A3n",
+      "https://www.facebook.com/hoisuhocdanlapvietnam/posts/l%E1%BB%8Bch-s%E1%BB%AD-th%E1%BA%BF-gi%E1%BB%9Bi-c%E1%BA%ADn-%C4%91%E1%BA%A1i-kh%C3%A1i-qu%C3%A1t-chung-i-m%E1%BB%99t-v%C3%A0i-n%C3%A9t-kh%C3%A1i-qu%C3%A1t-v%E1%BB%81-th%E1%BA%AFng-l%E1%BB%A3i-c%E1%BB%A7/367880700071543/"
     ]
   },
   {
@@ -90,15 +90,15 @@ export const posts: PostType[] = [
     slug: "con-nguoi-trong-xa-hoi-xa-hoi-chu-nghia",
     title: "CON NGƯỜI TRONG XÃ HỘI XÃ HỘI CHỦ NGHĨA (CNXH)",
     milestone: "1946–1969",
-    audio: "/audio/cotmoc6.mp3",
+    audio: "/audio/xa_hoi_chu_nghia.mp3",
     shortDescription:
       "Nhận diện sớm nguy cơ tha hóa của quyền lực và thiết lập 'lồng cơ chế' để nhốt quyền lực.",
     content:
       "Chủ nghĩa xã hội ra đời như một phản ứng trước những mâu thuẫn của xã hội tư bản, đặt mục tiêu giải phóng con người khỏi áp bức giai cấp và bất công kinh tế. Điểm cốt lõi của CNXH là sự chuyển dịch từ quyền của “người có của” sang quyền của “nhân dân lao động” – những người trực tiếp tạo ra của cải vật chất cho xã hội. Trong lý luận xã hội chủ nghĩa, quyền con người không chỉ dừng lại ở quyền dân sự – chính trị, mà còn bao gồm quyền kinh tế, xã hội và văn hóa như: quyền được lao động, học tập, chăm sóc y tế và sống trong điều kiện đảm bảo nhân phẩm. Dân chủ được hiểu là dân chủ thực chất, gắn liền với việc tham gia quản lý xã hội và phân phối công bằng thành quả phát triển. → Dân chủ xã hội chủ nghĩa nhấn mạnh rằng tự do không thể tách rời điều kiện vật chất và công bằng xã hội. Nhận xét ngắn: → Dân chủ gắn với bảo đảm điều kiện vật chất cho tự do con người. Bản chất kinh tế: Dựa trên chế độ công hữu về tư liệu sản xuất chủ yếu, xóa bỏ áp bức bóc lột. Mục tiêu: Giải phóng con người triệt để, chuyển quyền lực từ tay 'người có của' sang 'nhân dân lao động'. Đặc điểm: Tự do cá nhân gắn liền với điều kiện vật chất và công bằng xã hội.",
     image: ["/image/xhcn-ptay.png", "/image/ss4.png"],
     linkResource: [
-      "https://quochoi.vn/tulieuquochoi/anhtulieu/Pages/anhtulieu.aspx?ItemID=823",
-      "https://dangcongsan.vn/tu-tuong-van-hoa/kiem-soat-quyen-luc-trong-cong-tac-can-bo-theo-tu-tuong-ho-chi-minh-565403.html"
+      "https://tapchicongsan.org.vn/web/guest/kinh-te/-/2018/20369/vi-con-nguoi-xa-hoi-chu-nghia%21.aspx",
+      "https://baoquankhu7.vn/muon-xay-dung-chu-nghia-xa-hoi-phai-co-con-nguoi-xa-hoi-chu-nghia-va-co-tu-tuong-xa-hoi-chu-nghia-1740318005-0018539s34810gs"
     ]
   },
   {
