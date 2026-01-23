@@ -1,7 +1,8 @@
 "use server";
 
-import { embedder } from "@/lib/embed";
-import { supabase } from "@/lib/supabase";
+// RAG disabled - không dùng embedding
+// import { embedder } from "@/lib/embed";
+// import { supabase } from "@/lib/supabase";
 
 interface ChatHistory {
   role: string;
@@ -57,22 +58,36 @@ function buildPrompt(
   `.trim();
 }
 
-async function callGeminiWithRetry(
-  url: string,
-  payload: Record<string, unknown>,
+async function callOpenAICompatible(
+  prompt: string,
   retries = 3
-) {
+): Promise<string> {
+  const baseUrl = process.env.ZAI_BASE_URL || "https://api.zai.com/v1";
+  const apiKey = process.env.ZAI_API_KEY;
+  const model = process.env.ZAI_MODEL || "gpt-4o-mini";
+
   for (let attempt = 1; attempt <= retries; attempt++) {
-    const res = await fetch(url, {
+    const res = await fetch(`${baseUrl}/chat/completions`, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${apiKey}`
+      },
+      body: JSON.stringify({
+        model,
+        messages: [{ role: "user", content: prompt }],
+        temperature: 0.7,
+        max_tokens: 2048
+      })
     });
 
-    if (res.ok) return await res.json();
+    if (res.ok) {
+      const json = await res.json();
+      return json?.choices?.[0]?.message?.content || "";
+    }
 
     const text = await res.text();
-    console.error(`Gemini API error (attempt ${attempt}):`, text);
+    console.error(`ZAI API error (attempt ${attempt}):`, text);
 
     if (res.status === 429 && attempt < retries) {
       const delay = 2000 * attempt;
@@ -81,8 +96,10 @@ async function callGeminiWithRetry(
       continue;
     }
 
-    throw new Error(`Gemini API failed: ${text}`);
+    throw new Error(`ZAI API failed: ${text}`);
   }
+
+  throw new Error("ZAI API failed after all retries");
 }
 
 /**
@@ -98,56 +115,23 @@ export async function sendChatMessage(
       return { error: "Thiếu câu hỏi!" };
     }
 
-    // Lấy embedding cho câu hỏi
-    const questionEmbedding = await embedder.embedQuery(question);
+    // RAG disabled - không dùng embedding/Supabase
+    // const questionEmbedding = await embedder.embedQuery(question);
+    // const { data: matches, error } = await supabase.rpc("match_documents", {
+    //   query_embedding: JSON.stringify(questionEmbedding),
+    //   match_count: 5
+    // });
 
-    // Tìm context trong Supabase
-    const { data: matches, error } = await supabase.rpc("match_documents", {
-      query_embedding: JSON.stringify(questionEmbedding),
-      match_count: 5,
-    });
-
-    if (error) {
-      console.error("Supabase RPC error:", error);
-      return { error: "Lỗi khi truy vấn cơ sở dữ liệu" };
-    }
-
-    let context = "";
-
-    if (matches?.length) {
-      context = matches
-        .map((m: { content: string }) => (m?.content ?? "").trim())
-        .filter(Boolean)
-        .join("\n---\n");
-    } else {
-      context =
-        "Không có đoạn tài liệu nào phù hợp, hãy trả lời dựa trên kiến thức nền tảng về Tư tưởng Hồ Chí Minh.";
-    }
-
-    // Ghép context
-    context = matches
-      .map((m: { content: string }) => (m?.content ?? "").trim())
-      .filter(Boolean)
-      .join("\n---\n");
+    const context =
+      "Hãy trả lời dựa trên kiến thức nền tảng về Tư tưởng Hồ Chí Minh.";
 
     // Build prompt
     const prompt = buildPrompt(context, history, question);
 
-    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.GOOGLE_API_KEY}`;
-
-    const json = await callGeminiWithRetry(endpoint, {
-      contents: [{ role: "user", parts: [{ text: prompt }] }],
-    });
-
-    const answer =
-      json?.candidates?.[0]?.content?.parts
-        ?.map((p: { text: string }) => p.text)
-        .join("\n")
-        .trim() || "Xin lỗi, tôi chưa có dữ liệu phù hợp để trả lời.";
+    const answer = await callOpenAICompatible(prompt);
 
     return {
-      answer,
-      contextSnippet: context.slice(0, 500),
+      answer: answer || "Xin lỗi, tôi chưa có dữ liệu phù hợp để trả lời."
     };
   } catch (e) {
     console.error("Server error:", e);
